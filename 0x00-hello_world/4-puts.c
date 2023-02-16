@@ -2,8 +2,8 @@
 
 
 /**
- * main -  prints "Programming is like building
- *  a multilingual puzzle"
+ * main -  prints "Programming is like building a multilingual
+ * puzzle,followed by new line"
  * return 0
  */
 
