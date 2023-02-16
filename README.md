@@ -1,2 +1,1 @@
-# alx-low_level_programming
-alx c programming
+hello world project
