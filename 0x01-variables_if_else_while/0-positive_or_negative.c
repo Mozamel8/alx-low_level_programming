@@ -6,7 +6,7 @@
  * main - assigned random number and check if positive,
  * negative or zero
  *
- * Return 0. (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
