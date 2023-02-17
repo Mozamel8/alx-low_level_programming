@@ -18,7 +18,7 @@ int main(void)
 		}
 	}
 
-	putchar(aLph);
+	putchar('\n');
 
 	return (0);
 }
