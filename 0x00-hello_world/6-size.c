@@ -8,7 +8,8 @@
  */
 
 int main(void)
-{
+
+{	
 	printf("Size of a char: %zu byte(s)", sizeof(char));
 
 	printf("Size of an int: %zu byte(s)", sizeof(int));
