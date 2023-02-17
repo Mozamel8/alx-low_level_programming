@@ -7,7 +7,7 @@
  * print lastdigit of number n , and if greater than
  * five or less
  *
- * Return Always 0. (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
