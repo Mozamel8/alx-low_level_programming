@@ -2,10 +2,10 @@
 
 
 /**
- * main - Entry point 
+ * main - Entry point
  * prints "Programming is like building a multilingual
  * puzzle,followed by new line"
- * return 0
+ * Return: 0 always (success)
  */
 
 int main(void)
