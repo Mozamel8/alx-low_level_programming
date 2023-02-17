@@ -5,7 +5,7 @@
  *
  * c program print the size of various type of variable
  *
- * Return Always 0 (Success)
+ * Return Always 0. (Success)
  */
 
 int main(void)
