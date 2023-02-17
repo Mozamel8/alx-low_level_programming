@@ -15,6 +15,6 @@ int main(void)
 	{
 		putchar(alpha[i]);
 	}
-	purchar("\n");
+	putchar("\n");
 	return (0);
 }
