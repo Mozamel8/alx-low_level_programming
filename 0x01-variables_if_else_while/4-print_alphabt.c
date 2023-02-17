@@ -10,9 +10,9 @@ int main(void)
 {
 	char aLph;
 
-	for (aLph = 'a';aLph <= 'z';aLph++)
+	for (aLph = 'a'; aLph <= 'z'; aLph++)
 	{
-		if(aLph != 'e' && aLp != 'q')
+		if (aLph != 'e' && aLph != 'q')
 		{
 			putchar(aLph);
 		}
