@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * prinit"with proper grammer, but outcome is 
+ * print"with proper grammer, but outcome is 
  * a piece of art," followed by newline
  *
  * Return: Always 0 (Success)
