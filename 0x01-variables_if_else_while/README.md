@@ -6,3 +6,4 @@ print with putchar
 print all character in reverse
 print number base 16
 print single digit combination
+print combination of two digit
