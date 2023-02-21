@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * print alphabet ten times
- *
- * Return: Always 0 (Success)
+ * print_alphabet_x10 Make alphabet ten time
+ * Return: void
  */
 
 void print_alphabet_x10(void)
@@ -16,8 +14,7 @@ void print_alphabet_x10(void)
 		for (j = 'a'; j <= 'z'; j++)
 		{
 			_putchar(j);
-		}
-	
+		}	
 	_putchar('\n');
 	i++;
 	}
