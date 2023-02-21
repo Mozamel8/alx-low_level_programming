@@ -2,7 +2,7 @@
 
 /**
  * main - print alphapet in lower
- * print alphabet in lower
+ * a function that prints the alphabet, in lowercase, followed by a new line
  * Returrn: Always 0 (Success)
  */
 
