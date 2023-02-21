@@ -2,7 +2,7 @@
 
 /**
  * main - print alphapet in lower
- *
+ * print alphabet in lower
  * Returrn: Always 0 (Success)
  */
 
