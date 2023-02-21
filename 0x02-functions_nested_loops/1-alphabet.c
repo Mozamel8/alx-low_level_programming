@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - print alphapet in lower
- * a function print_alphabet  that prints the alphabet, in lowercase, followed by a new line
- * Returrn: Always 0 (Success)
+ *
+ * a function print_alphabet  that prints the alphabet,
+ * in lowercase, followed by a new line
+ *
  */
 
 void print_alphabet(void)
