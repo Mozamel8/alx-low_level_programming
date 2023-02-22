@@ -20,7 +20,7 @@ int main(void)
 	{
 	if (count == 50)
 	{
-	printf("%ld \n", next);
+	printf("%ld\n", next);
 	}
 	else
 	{
