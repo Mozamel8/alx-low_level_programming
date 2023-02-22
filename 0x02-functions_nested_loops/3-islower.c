@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - character c return if is lower
+ * _islower - character c return if is low
+ *@c:  refered to asscii number of char
+ *
+ * Return: 1 if lower 0 isn't
  *
  */
 
