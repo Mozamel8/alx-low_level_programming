@@ -16,7 +16,7 @@ int main(void)
 	printf("%lu, ", first);
 	printf("%lu, ", second);
 
-	while (count <= 50)
+	while (count < 50)
 	{
 	if (count == 50)
 	{
