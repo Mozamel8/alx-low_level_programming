@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * check is alphabet
- *
- * Return: one is alpha zero isn't
+ * _isalpha -  check is alphabet
+ * @c: point to alpha
+ * Return: 1 success 0 fail
  */
 
 int _isalpha(int c)
