@@ -10,27 +10,26 @@
 int main(void)
 {
 	int i;
-	char s[] = "Fizz";
-	char d[] = "Buzz";
-	char f[] = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0)
 		{
-			printf("%s ", s);
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("%s ", d);
+			printf("Buzz");
 		}
 		else if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("%s ", f);
+			printf("FizzBuzz");
 		}
 		else
 		{
 			printf("%d ", i);
 		}
 	}
+	printf("\n");
+	return (0);
 }
