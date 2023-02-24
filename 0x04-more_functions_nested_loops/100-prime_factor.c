@@ -34,7 +34,6 @@ int main(void)
 			n = n / 2;
 		}
 	}
-	
 	return (0);
 
 }
