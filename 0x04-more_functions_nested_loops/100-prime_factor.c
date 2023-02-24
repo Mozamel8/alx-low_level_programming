@@ -14,25 +14,12 @@ int main(void)
 	int i;
 	double square = sqrt(n);
 
-	while (n % 2 == 0)
+	for (i = 1; i <= square; i++)
 	{
-		if (largest >= 2)
-		{
-			largest = 2;
-		}
-		n = n / 2;
+	if (n % i == 0)
+	{
+	largest = n / i;
 	}
-
-	for (i = 3; i <= square; i = i + 2)
-	{
-		while (n % i == 0)
-		{
-			if (largest >= i)
-			{
-				largest = i;
-			}
-			n = n / 2;
-		}
 	}
 	printf("%ld\n", largest);
 	return (0);
