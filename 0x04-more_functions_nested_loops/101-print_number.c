@@ -3,7 +3,7 @@
 
 /**
  * print_number - print number
- *
+ *@n  : nuber to be print
  * Return:void
 */
 
