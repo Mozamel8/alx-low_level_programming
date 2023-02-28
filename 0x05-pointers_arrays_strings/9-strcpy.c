@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcpy - copy array of string in another string 
+ * *_strcpy - copy array of string in another string
  * @dest: variable point to desination
  * @src: variable to source string
  * Return: char of string
