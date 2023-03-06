@@ -2,19 +2,19 @@
 
 /**
  *_memset - function full memory
- *@s: point to destinatin
- *@b: constant bytes
+ *@dest: point to destinatin
+ *@src: constant bytes
  *@n:bytes
  *Return: pointer of bytes
 */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *dest, char src, unsigned int n)
 {
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
-		s[i] = b;
+		dest[i] = src;
 	}
-	return (s);
+	return (dest);
 }
