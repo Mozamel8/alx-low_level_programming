@@ -12,7 +12,7 @@ char *_memcpy(char *si, char *bi, unsigned int ni)
 {
 	unsigned int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < ni; i++)
 	{
 		si[i] = bi[i];
 	}
