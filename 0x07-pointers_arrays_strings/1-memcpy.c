@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * *_memset - function fill memory with constant byte
+ * __memcpy - Function that copies memory area
  * @s: variable as in put
  * @b: destinatin pointer
  * @n: number of length
- * Return: pointer of s
+ * Return: Pointer of string
 */
 
-char *_memset(char *s, char *b, unsigned int n)
+char *__memcpy(char *s, char *b, unsigned int n)
 {
 	unsigned int i;
 
