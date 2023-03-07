@@ -2,9 +2,9 @@
 
 /**
  * _memcpy - Function that copies memory area
- * @s: variable as in put
- * @b: destinatin pointer
- * @n: number of length
+ * @si: variable as in put
+ * @bi: destinatin pointer
+ * @ni: number of length
  * Return: Pointer of string
 */
 
