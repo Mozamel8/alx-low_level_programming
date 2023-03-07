@@ -8,13 +8,13 @@
  * Return: Pointer of string
 */
 
-char *__memcpy(char *s, char *b, unsigned int n)
+char *__memcpy(char *si, char *bi, unsigned int ni)
 {
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
-		s[i] = b[i];
+		si[i] = bi[i];
 	}
-	return (s);
+	return (si);
 }
