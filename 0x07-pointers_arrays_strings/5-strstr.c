@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strstr - function finds the first 
+ * _strstr - function finds the first
  * occurrence of the substring
  * @haystack: string
  * @needle: substring
