@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * __memcpy - Function that copies memory area
+ * _memcpy - Function that copies memory area
  * @s: variable as in put
  * @b: destinatin pointer
  * @n: number of length
  * Return: Pointer of string
 */
 
-char *__memcpy(char *si, char *bi, unsigned int ni)
+char *_memcpy(char *si, char *bi, unsigned int ni)
 {
 	unsigned int i;
 
