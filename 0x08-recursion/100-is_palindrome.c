@@ -24,7 +24,7 @@ int _strlen(char *s)
 
 int compare2Str(char *s, int num1, int num2)
 {
-	if (if *(s + num1) == *(s + num2))
+	if (*(s + num1) == *(s + num2))
 	{
 		if (num1 == num2 || num1 == num2 + 1)
 			return (1);
