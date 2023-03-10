@@ -28,7 +28,7 @@ int compare2Str(char *s, int num1, int num2)
 	{
 		if (num1 == num2 || num1 == num2 + 1)
 			return (1);
-		return (num1 + compare2Str(s, num1 + 1, num2 - 1));
+		return (0 + compare2Str(s, num1 + 1, num2 - 1));
 	}
 	return (0);
 }
@@ -43,5 +43,5 @@ int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (1);
-	return (compare2Str(s, 0, _strlen));
+	return (compare2Str(s, 0, _strlen(s) - 1));
 }
