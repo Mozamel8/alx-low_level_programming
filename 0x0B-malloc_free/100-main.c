@@ -4,7 +4,8 @@
 
 /**
  * main - check the code for ALX School students.
- *
+ *@ac:number of param
+ *@av:array of parameter
  * Return: Always 0.
 */
 
