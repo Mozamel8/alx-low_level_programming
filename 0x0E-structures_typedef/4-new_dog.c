@@ -43,6 +43,7 @@ int _strlen(char *s)
  * @name:name of dog
  * @age:age of dog
  * @owner:owner of dog
+ * Return:struct of dog
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
