@@ -6,6 +6,7 @@
  * @name:name of dog
  * @age:age of dog
  * @owner:owner of dog
+ * Description:the attribute dog
 */
 
 struct dog
@@ -16,7 +17,7 @@ struct dog
 };
 
 /**
- * dog_t - typedef of dug structur
+ * dog_t - Typedef for dog structur
 */
 
 typedef struct dog dog_t;
