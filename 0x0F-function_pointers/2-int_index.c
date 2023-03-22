@@ -6,6 +6,7 @@
  * @array:arry to search in it
  * @size:size of array
  * @cmp:function to search
+ * Return: value or -1
 */
 
 int int_index(int *array, int size, int (*cmp)(int))
