@@ -1,7 +1,6 @@
 #include "3-calc.h"
-#include <string.h>
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * get_op_func - function operation
  * @s:operator passed as urgument
@@ -19,7 +18,7 @@ int (*get_op_func(char *s))(int, int)
 	{NULL, NULL}
 	};
 
-	int i;
+	int i = 0;
 
 	while (i < 5)
 	{
