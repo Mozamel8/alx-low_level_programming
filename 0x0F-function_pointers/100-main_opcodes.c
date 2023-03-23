@@ -5,6 +5,7 @@
  * main - prints open code
  * @argc:number of argument
  * @argv:array of pointer to argument
+ * Return:Always 0
 */
 
 int main(int argc, char *argv[])
