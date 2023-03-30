@@ -20,7 +20,7 @@ list_t *add_node(list_t **head, const char *str)
 	new_nod->next = *head;
 	*head = new_nod;
 
-	if (!new_nod)
+	if (!(new_nod))
 		return (NULL);
 	else
 		return (new_nod);
