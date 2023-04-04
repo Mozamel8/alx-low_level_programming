@@ -13,6 +13,8 @@ int pop_listint(listint_t **head)
 {
 	listint_t *ptr = malloc(sizeof(listint_t));
 	
+	if ((*head) == NULL)
+	return (0);	
 	ptr = (*head);
 	(*head) = (*head)->next;
 	free(ptr);
