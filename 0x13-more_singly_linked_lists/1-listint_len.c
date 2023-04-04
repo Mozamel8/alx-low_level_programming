@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * list_len - print number of elements
+ * listint_len - print number of elements
  * @h:pointer to linkedlist
  * Return:number of element in linkedlist
 */
