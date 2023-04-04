@@ -4,7 +4,7 @@
 
 /**
  * free_listint- function to free linked
- * *head:head of linkedlist
+ * @head:head of linkedlist
  * Return:free linkedlist
 */
 
