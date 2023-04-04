@@ -10,13 +10,16 @@
 
 void free_listint2(listint_t **head)
 {
-	listint_t *temp = malloc(sizeof(listint_t));
+	listint_t *temp;
 
-	while ((*head) != NULL)
+	if (head == NULL)
+		return;
+
+	while (*head != NULL)
 	{
 		temp =(*head);
-		head = NULL;
 		(*head) = (*head)->next;
 		free(temp);
 	}
+	head = NULL;
 }
