@@ -4,6 +4,7 @@
  * set_bit - function to set bit to 1
  * @n:binary number
  * @index:index of given bit
+ * Return: 1 Success
 */
 
 int set_bit(unsigned long int *n, unsigned int index)
